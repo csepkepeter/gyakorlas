@@ -14,6 +14,7 @@
     border: solid thin #cfcfcf;
     border-radius: 3px;
     padding: 10px;
+    position: relative;
 }
 
 .newsletter button{
@@ -35,4 +36,21 @@
 
     
     box-sizing: border-box;
+}
+.newsletter #closex{
+    position: absolute;
+    top: 0;
+    right: 4px;
+}
+#questionmark{
+    background-color: #3cb878;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 70px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
